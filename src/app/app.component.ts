@@ -17,14 +17,14 @@ export class AppComponent implements OnInit{
 
   ngOnInit(): void {
     this.getPrayerTimesData(this.cityName, this.countryName);
-    this.cityName = "";
-    this.countryName = "";
+    // this.cityName = "";
+    // this.countryName = "";
   }
 
   onSubmit() {
     this.getPrayerTimesData(this.cityName, this.countryName);
-    this.cityName = "";
-    this.countryName = "";
+    // this.cityName = "";
+    // this.countryName = "";
   }
 
   private getPrayerTimesData(cityName: string, countryName: string) {
