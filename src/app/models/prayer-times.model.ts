@@ -72,8 +72,8 @@ export interface Hijri {
     date: string;
     format: string;
     day: string;
-    weekday: string;
-    month: string;
+    weekday: Weekday;
+    month: Month;
     year: string;
     designation: Designation;
     holidays: any[];
