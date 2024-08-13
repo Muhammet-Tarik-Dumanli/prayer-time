@@ -5,6 +5,7 @@
     <form #form="ngForm" (submit)="onSubmit()">
       <input class="br-0" type="text" placeholder="City" name="city" [(ngModel)]="cityName" maxlength="10" required>
       <input class="b1-0" type="text" placeholder="Country" name="country" [(ngModel)]="countryName" maxlength="10" required>
+      <button class="search-btn" type="submit">Find</button>
     </form>
   </div>
 

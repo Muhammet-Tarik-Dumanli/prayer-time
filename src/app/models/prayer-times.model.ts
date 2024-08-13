@@ -79,28 +79,14 @@ export interface Hijri {
     holidays: any[];
 }
 
-export interface Weekday2 {
-    en: string;
-}
-
-export interface Month2 {
-    number: string;
-    en: string
-}
-
-export interface Designation2 {
-    abbreviated: string;
-    expanded: string;
-}
-
 export interface Gregorian {
     date: string;
     format: string;
     day: string;
-    weekday: Weekday2;
-    month: Month2;
+    weekday: Weekday;
+    month: Month;
     year: string;
-    designation: Designation2;
+    designation: Designation;
 }
 
 export interface Date {
